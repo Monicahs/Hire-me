@@ -1,0 +1,122 @@
+body {
+  background-color: #f9f7f7;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.app-wrapper {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.login-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 60px;
+  height:60px;
+  margin-bottom: 10px;
+}
+
+h1, h3 {
+  color: #1e3a8a;
+  margin: 6px 0;
+}
+
+p, a {
+  font-size: 12px;
+  color: #3126d1;
+  text-decoration: none;
+}
+
+.login-buttons button {
+  background-color: #2563eb;
+  border: none;
+  padding: 10px 12px;
+  margin: 4px;
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-buttons button:hover {
+  background-color: #1d4ed8;
+}
+
+.trusted-section h3 {
+  color: #2563eb;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+}
+
+.companies span {
+  background: #e0e7ff;
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #1e3a8a;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+
+.stat .number {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.stat .label {
+  font-size: 11px;
+  color: #777;
+}
+
+.start-career {
+  margin-top: 12px;
+  background: #f9fafb;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #ddd;
+}
+
+.start-career h4 {
+  color: #d97706;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.start-career button {
+  background-color: #0ea5e9;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.start-career button:hover {
+  background-color: #0284c7;
+}
