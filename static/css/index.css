@@ -1,122 +1,159 @@
 body {
-  background-color: #f9f7f7;
-  font-family: 'Segoe UI', sans-serif;
-  color: #333;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+header {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    background-color:#ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius:20px;
+    margin:2%;
+    margin-bottom:0;
+    border:2px solid black;
+}
+header h1 {
   margin: 0;
+  font-size: 24px;
 }
-
-.app-wrapper {
-  width: 100%;
-  max-width: 400px;
-  padding: 10px;
-}
-
-.login-card {
-  background: #ffffff;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-  width: 60px;
-  height:60px;
-  margin-bottom: 10px;
-}
-
-h1, h3 {
-  color: #1e3a8a;
-  margin: 6px 0;
-}
-
-p, a {
-  font-size: 12px;
-  color: #3126d1;
-  text-decoration: none;
-}
-
 .login-buttons button {
-  background-color: #2563eb;
+  background-color: #007bff;
+  color: #ffffff;
   border: none;
-  padding: 10px 12px;
-  margin: 4px;
-  color: white;
-  border-radius: 5px;
-  font-size: 12px;
+  padding: 10px 20px;
+  margin-left: 10px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  border-radius: 5px;
 }
-
-.login-buttons button:hover {
-  background-color: #1d4ed8;
+.login-buttons button:hover{
+  background-color: #0056b3;
 }
-
-.trusted-section h3 {
-  color: #2563eb;
-  font-size: 13px;
-  margin-bottom: 6px;
+.negative h3{
+  font-size: x-large;
+  font-weight: normal;
+  margin-bottom: auto;
 }
-
-.companies {
+.negative{
+  margin-top: -35px
+}
+main{
+  text-align: center;
+  padding: 40px 20px;
+}
+.hero{
+  margin-bottom: 40px;
+}
+.hero img{
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+}
+.hero h2{
+  font-size: 36px;
+  margin: 20px 0 10px;
+}
+.hero p{
+  font-size: 18px;
+  margin: 5px 0;
+}
+.trusted-companies{
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  border-color: black;
+  margin: 1%;
+}
+.trusted-companies h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-top: 1%;
+  font-weight: normal;
+}
+.companies{
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
   justify-content: center;
 }
-
-.companies span {
-  background: #e0e7ff;
-  padding: 3px 6px;
-  border-radius: 3px;
-  font-size: 12px;
-  color: #1e3a8a;
+.companies span{
+  margin: 10px 20px;
+  font-size: 18px;
 }
-
-.stats-container {
+.stats{
   display: flex;
-  justify-content: space-between;
-  margin: 12px 0;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-
-.stat .number {
-  color: #2563eb;
+.stats-parent-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  padding: 20px;
+}
+.stats-container{
+  margin: 10px;
+  width: 100%;
+}
+.start-career{
+  margin: 10px;
+  width: 100%;
+}
+.stats-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #fffbcc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.stat-item{
+  text-align: center;
+  color:  #0056b3;
+}
+.stat-number{
+  font-size: 2em;
   font-weight: bold;
+  padding-bottom: 20%;
+  padding-top: 30%;
+}
+.stat-description{
+  margin-top: 5px;
+  font-size: 1em;
+  padding-bottom: 20%;
 }
 
-.stat .label {
-  font-size: 11px;
-  color: #777;
+.start-career{
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d1ecf1;
+  color: #0c5460;
 }
-
-.start-career {
-  margin-top: 12px;
-  background: #f9fafb;
-  padding: 10px;
-  border-radius: 7px;
-  border: 1px solid #ddd;
+.start-career h4{
+ font-size: 24px;
+  margin-bottom: 20px;
+  padding-bottom: 5%;
 }
-
-.start-career h4 {
-  color: #d97706;
-  font-size: 13px;
-  margin-bottom: 6px;
-}
-
-.start-career button {
-  background-color: #0ea5e9;
-  color: white;
+.start-career button{
+  background-color: #007bff;
+  color: #ffffff;
   border: none;
-  padding: 7px 14px;
-  border-radius: 5px;
-  font-size: 12px;
+  padding: 10px 20px;
   cursor: pointer;
+  border-radius: 5px;
+}
+.start-career button:hover{
+  background-color: #0056b3;
 }
 
-.start-career button:hover {
-  background-color: #0284c7;
-}
