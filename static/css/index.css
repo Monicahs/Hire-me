@@ -48,9 +48,9 @@ main{
   margin-bottom: 40px;
 }
 .hero img{
-  max-width: 100%;
-  width: 500px;
-  height: auto;
+  max-width: 50%;
+  width: 70px;
+  margin-bottom: 10px;
 }
 .hero h2{
   font-size: 36px;

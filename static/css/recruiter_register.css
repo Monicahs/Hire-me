@@ -1,114 +1,102 @@
 body {
-  background-color: #1a1a1a;
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: 'Mallanna';
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: #f0f0f0;
+  margin: 0;
 }
 
 .form-container {
-  background-color: #2a2a2a;
-  padding: 28px 24px;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-  width: 95%;
-  max-width: 420px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-h1 {
-  text-align: center;
-  font-size: 22px;
-  color: #ffffff;
-  margin-bottom: 12px;
+  background-color: #D7EBEF;
+  padding: 5%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  height: 700px;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  gap: 14px;
 }
 
 .form-row {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  justify-content: space-between;
 }
 
 .form-column {
   display: flex;
   flex-direction: column;
-  width: 100%;
-}
-
-@media (min-width: 600px) {
-  .form-column {
-    width: 48%;
-  }
+  width: 48%;
 }
 
 .form-group {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15%;
+  margin-right: 5%;
 }
 
 #confirm_pass_group {
-  margin-top: 8px;
+  margin-top: 48%;
 }
 
 label {
-  margin-bottom: 4px;
-  font-size: 14px;
-  color: #cccccc;
+  width: 40%;
+  margin-right: 10px;
+  text-align: left;
+  font-weight: bold;
 }
 
-input,
+input {
+  width: 60%;
+  padding: 8px;
+  background-color: #EBF5F7;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
 select {
-  padding: 10px;
-  font-size: 14px;
-  border: 1px solid #444;
-  background-color: #1f1f1f;
-  color: #ffffff;
-  border-radius: 6px;
-  transition: border-color 0.3s;
-}
-
-input:focus,
-select:focus {
-  border-color: #007bff;
-  outline: none;
+  width: 60%;
+  padding: 8px;
+  background-color: #EBF5F7;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
 }
 
 hr {
-  border: 1px solid #333;
-  margin: 16px 0;
+  margin: 20px 0;
 }
 
 button {
-  padding: 12px;
-  font-size: 15px;
-  font-weight: 600;
-  background-color: #007bff;
+  width: 20%;
+  padding: 10px;
+  background-color: #2B64D9;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  margin-left: 40%;
+  margin-bottom: 5%;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #003ec4;
 }
 
 p {
-  font-size: 13px;
+  font-weight: bold;
   text-align: center;
-  margin-top: 10px;
-  color: #aaaaaa;
+  margin-top: 5%;
+  font-size: 22px;
+  color: #555555;
+}
+
+h1 {
+  text-align: center;
+  margin-left: 10%;
+  margin-bottom: 7%;
 }
